@@ -1,0 +1,34 @@
+# PhishDetectAI 🛡️
+
+PhishDetectAI is an open-source AI-powered phishing URL detection tool. It uses a machine learning model trained with `scikit-learn` and provides a simple user interface built using Streamlit.
+
+---
+
+## 🚨 Problem Statement
+Phishing attacks are one of the most common forms of cybercrime. Victims are tricked into clicking on fake websites and giving away sensitive information. Detecting phishing in real-time can help reduce risk and improve cybersecurity for individuals and businesses.
+
+---
+
+## 💡 Solution
+This app allows users to:
+- Input a suspicious URL
+- Automatically extract key features (e.g., URL length, dots, hyphens)
+- Use an AI model to predict whether the URL is phishing or legitimate
+
+---
+
+## 🧠 Tech Stack
+- Python
+- Streamlit
+- Scikit-learn
+- Pandas
+- Joblib
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone the repo or download as ZIP
+2. Install required libraries:
+   ```bash
+   pip install -r requirements.txt
